@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/tigthor/helium-wallet-utility/issues"
   },
+  "files": [
+    "build"
+  ],
   "homepage": "https://github.com/tigthor/helium-wallet-utility#readme",
   "devDependencies": {
     "@ledgerhq/hw-transport-mocker": "^6.0.2",
