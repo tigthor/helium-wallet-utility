@@ -1,0 +1,34 @@
+{
+  "name": "helium-wallet-utility",
+  "version": "1.0.4",
+  "description": "A Helium Network Ledger transport",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigthor/helium-wallet-utility.git"
+  },
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/tigthor/helium-wallet-utility/issues"
+  },
+  "homepage": "https://github.com/tigthor/helium-wallet-utility#readme",
+  "devDependencies": {
+    "@ledgerhq/hw-transport-mocker": "^6.0.2",
+    "@types/jest": "^26.0.15",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@helium/crypto": "^3.24.0",
+    "@helium/transactions": "^3.34.0",
+    "@ledgerhq/hw-transport": "^6.0.2",
+    "@types/node": "^15.14.0",
+    "big-integer": "^1.6.48"
+  }
+}
