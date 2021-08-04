@@ -1,6 +1,6 @@
 {
   "name": "helium-wallet-utility",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Helium Network Ledger transport",
   "main": "build/index.js",
   "module": "build/index.js",
