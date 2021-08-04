@@ -17,7 +17,7 @@
     "url": "https://github.com/tigthor/helium-wallet-utility/issues"
   },
   "files": [
-    "build"
+    "./build/*"
   ],
   "homepage": "https://github.com/tigthor/helium-wallet-utility#readme",
   "devDependencies": {
